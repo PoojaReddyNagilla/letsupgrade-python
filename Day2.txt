@@ -1,0 +1,72 @@
+1.List and default methods
+n=[1,1,2,3,4]
+n.append(5)
+print(n)
+c=n.count(1)
+print(c)
+n.extend([6,7])
+print(n)
+n.insert(1,11)
+print(n)
+n.pop()
+print(n)
+n.remove(1)
+print(n)
+
+2.Tuple and default methods
+t=(1,2,3)
+print(t[-1])
+print(t[1])
+t.count(1)
+print(t)
+t.index(2)
+print(t)
+print(len(t))
+del t
+
+3.Dictionary and methods
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(dict)
+x = dict["model"]
+print(x)
+dict["year"] = 2019
+print(dict)
+for x in dict.values():
+  print(x)
+  print(len(dict))
+  dict["color"] = "red"
+  print(dict)
+  del dict
+
+4.sets and default methods
+s = {"apple", "banana", "cherry"}
+print(s)
+for x in s:
+  print(x)
+  s.add("orange")
+
+  print(s)
+  print(len(s))
+  s.remove("banana")
+print(s)
+x = s.pop()
+
+print(x)
+
+print(s)
+del s
+
+
+5.String and its functions
+a = "Pooja Reddy"
+print(a)
+print(a[1])
+print(len(a))
+print(a.strip())
+print(a.lower())
+print(a.upper())
+
